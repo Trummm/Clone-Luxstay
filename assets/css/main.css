@@ -632,17 +632,18 @@
 }
 
 .footer__pay-certification {
-  margin-left: 195px;
+  margin-left: 231px;
 }
 
 .footer__pay-follow {
-  margin-left: 51px;
+  margin-left: 95px;
 }
 
 .footer__pay-transaction-list {
   display: inline-flex;
   list-style: none;
   cursor: pointer;
+  padding: 0;
 }
 
 .footer__pay-transaction-img {
@@ -662,6 +663,7 @@
   font-size: 3rem;
   margin-right: 20px;
   color: #555555;
+  padding: 0;
 }
 
 .footer__footer {
