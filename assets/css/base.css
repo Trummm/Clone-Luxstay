@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #ffffff;
+  --hover-color: #f65e39;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* Trong trường hợp này thì khi xét font-size = 62,5% thì 1rem = 10px */
+  line-height: 1.6rem; /* 16px */
+  font-family: "Roboto", sans-serif; /* sans-serif là chủng chữ không có chân */
+  box-sizing: border-box;
+}
+
+.grid-header {
+  width: 1536px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.grid {
+  width: 1296px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.active--hover:hover {
+  color: var(--hover-color);
+}
+
+.padding-img {
+  padding: 0 16px;
+}
+
+.margin-img {
+  margin-right: 16px;
+}
